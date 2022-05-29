@@ -16,9 +16,10 @@ func wayTooLongWords() {
 		r := len(i) - 1
 		if len(i) > 10 {
 			fmt.Printf("%c%d%c\n", i[l], len(i)-2, i[r])
-		}
-		fmt.Println(i)
+		} else {
+			fmt.Println(i)
 
+		}
 	}
 }
 
