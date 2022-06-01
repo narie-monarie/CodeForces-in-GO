@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+//func Helpfulmaths(x string)
+
+func main() {
+	var values string
+	fmt.Scanln(&values)
+	v := []rune(values)
+	fmt.Println(v)
+	fmt.Println(string(v))
+}
