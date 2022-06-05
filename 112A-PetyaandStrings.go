@@ -19,10 +19,8 @@ func PetyaStrings(a, b string) int {
 }
 
 func main() {
-	var a string
-	var b string
-	fmt.Scanln(&a)
-	fmt.Scanln(&b)
+	var a, b string
+	fmt.Scanln(&a, &b)
 	fmt.Println(PetyaStrings(a, b))
 
 }
