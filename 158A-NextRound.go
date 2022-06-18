@@ -1,4 +1,5 @@
 package main
+
 import "fmt"
 
 func main() {
@@ -18,6 +19,5 @@ func main() {
 			count++
 		}
 	}
-
 	fmt.Println(count)
 }
